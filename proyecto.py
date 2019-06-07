@@ -24,7 +24,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo1 = 100
-cadena1 = "Tiempo:\t\t"
+cadena1 = "Tiempo1:\t\t"
 for j in range(10):
         sumacolumna1 = 0
         for i in range(5):
@@ -58,7 +58,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo2 = 100
-cadena2 = "Tiempo:\t\t"
+cadena2 = "Tiempo2:\t\t"
 for j in range(10):
         sumacolumna2 = 0
         for i in range(5):
@@ -92,7 +92,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo3 = 100
-cadena3 = "Tiempo:\t\t"
+cadena3 = "Tiempo3:\t\t"
 for j in range(10):
         sumacolumna3 = 0
         for i in range(5):
@@ -101,7 +101,7 @@ for j in range(10):
                 tiempo3 = sumacolumna3
                 competidor3 = comp3[j]
         cadena3+=str(sumacolumna3)+"\t"
-print(cadena3+"\nCompetidor que gano en la etapa 2 es: "+ competidor3)
+print(cadena3+"\nCompetidor que gano en la etapa 3 es: "+ competidor3)
 #----------------Matriz 4
 
 comp4=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
@@ -126,7 +126,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo4 = 100
-cadena4 = "Tiempo:\t\t"
+cadena4 = "Tiempo4:\t\t"
 for j in range(10):
         sumacolumna4 = 0
         for i in range(5):
@@ -135,7 +135,7 @@ for j in range(10):
                 tiempo4 = sumacolumna4
                 competidor4 = comp4[j]
         cadena4+=str(sumacolumna4)+"\t"
-print(cadena4+"\nCompetidor que gano en la etapa 2 es: "+ competidor4)
+print(cadena4+"\nCompetidor que gano en la etapa 4 es: "+ competidor4)
 #----------------Matriz 5
 
 comp5=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
@@ -160,7 +160,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo5 = 100
-cadena5 = "Tiempo:\t\t"
+cadena5 = "Tiempo5:\t\t"
 for j in range(10):
         sumacolumna5 = 0
         for i in range(5):
@@ -169,7 +169,7 @@ for j in range(10):
                 tiempo5 = sumacolumna5
                 competidor5 = comp5[j]
         cadena5+=str(sumacolumna5)+"\t"
-print(cadena5+"\nCompetidor que gano en la etapa 2 es: "+ competidor5)
+print(cadena5+"\nCompetidor que gano en la etapa 5 es: "+ competidor5)
 #----------------Matriz 6
 
 comp6=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
@@ -194,7 +194,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo6 = 100
-cadena6 = "Tiempo:\t\t"
+cadena6 = "Tiempo6:\t\t"
 for j in range(10):
         sumacolumna6 = 0
         for i in range(5):
@@ -203,6 +203,7 @@ for j in range(10):
                 tiempo6 = sumacolumna6
                 competidor6 = comp6[j]
         cadena6+=str(sumacolumna6)+"\t"
+print(cadena6+"\nCompetidor que gano en la etapa 6 es: "+ competidor6)
 #----------------Matriz 7
 comp7=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
 etapas7=["Etapa 1: ","Etapa 2: ","Etapa 3: ","Etapa 4: ","Etapa 5: "]
@@ -226,7 +227,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo7 = 100
-cadena7 = "Tiempo:\t\t"
+cadena7 = "Tiempo7:\t\t"
 for j in range(10):
         sumacolumna7 = 0
         for i in range(5):
@@ -235,6 +236,7 @@ for j in range(10):
                 tiempo7 = sumacolumna7
                 competidor7 = comp7[j]
         cadena7+=str(sumacolumna7)+"\t"
+print(cadena7+"\nCompetidor que gano en la etapa 7 es: "+ competidor7)
 #----------------Matriz 8
 
 comp8=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
@@ -259,7 +261,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo8 = 100
-cadena8 = "Tiempo:\t\t"
+cadena8 = "Tiempo8:\t\t"
 for j in range(10):
         sumacolumna8 = 0
         for i in range(5):
@@ -268,6 +270,7 @@ for j in range(10):
                 tiempo8 = sumacolumna8
                 competidor8 = comp8[j]
         cadena8+=str(sumacolumna8)+"\t"
+print(cadena8+"\nCompetidor que gano en la etapa 8 es: "+ competidor8)
 #----------------Matriz 9
 
 comp9=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
@@ -292,7 +295,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo9 = 100
-cadena9 = "Tiempo:\t\t"
+cadena9 = "Tiempo9:\t\t"
 for j in range(10):
         sumacolumna9 = 0
         for i in range(5):
@@ -301,6 +304,7 @@ for j in range(10):
                 tiempo9 = sumacolumna9
                 competidor9 = comp9[j]
         cadena9+=str(sumacolumna9)+"\t"
+print(cadena9+"\nCompetidor que gano en la etapa 9 es: "+ competidor9)
 #----------------Matriz 10
 comp10=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
 etapas10=["Etapa 1: ","Etapa 2: ","Etapa 3: ","Etapa 4: ","Etapa 5: "]
@@ -324,7 +328,7 @@ for i in range(5):
     print(cad)
 print("\n\t\t----------------------------------------------")
 tiempo10 = 100
-cadena10 = "Tiempo:\t\t"
+cadena10 = "Tiempo10:\t\t"
 for j in range(10):
         sumacolumna10 = 0
         for i in range(5):
@@ -333,4 +337,5 @@ for j in range(10):
                 tiempo10 = sumacolumna10
                 competidor10 = comp10[j]
         cadena10+=str(sumacolumna10)+"\t"
+print(cadena10+"\nCompetidor que gano en la etapa 10 es: "+ competidor10)
 print()
