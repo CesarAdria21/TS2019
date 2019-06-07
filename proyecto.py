@@ -171,7 +171,166 @@ for j in range(10):
         cadena5+=str(sumacolumna5)+"\t"
 print(cadena5+"\nCompetidor que gano en la etapa 2 es: "+ competidor5)
 #----------------Matriz 6
+
+comp6=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
+etapas6=["Etapa 1: ","Etapa 2: ","Etapa 3: ","Etapa 4: ","Etapa 5: "]
+matriz6 = []
+#Generamos el tiempo aleatorio para los competidores
+for i in range(5):
+    a=[0]*10
+    matriz6.append(a)
+    for j in range(10):
+        matriz6[i][j] = randint(0,20)
+#Cabecera
+cad2="          "
+for i in range(10):
+    cad2+="\t"+comp6[i]
+cad2+="\n\t\t----------------------------------------------"
+print(cad2)
+for i in range(5):
+    cad=etapas6[i]+"|\t"
+    for j in range(10):
+        cad+=str(matriz6[i][j])+"\t"
+    print(cad)
+print("\n\t\t----------------------------------------------")
+tiempo6 = 100
+cadena6 = "Tiempo:\t\t"
+for j in range(10):
+        sumacolumna6 = 0
+        for i in range(5):
+                sumacolumna6 = sumacolumna6 + matriz6[i][j]
+        if sumacolumna6 < tiempo6:
+                tiempo6 = sumacolumna6
+                competidor6 = comp6[j]
+        cadena6+=str(sumacolumna6)+"\t"
 #----------------Matriz 7
+comp7=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
+etapas7=["Etapa 1: ","Etapa 2: ","Etapa 3: ","Etapa 4: ","Etapa 5: "]
+matriz7 = []
+#Generamos el tiempo aleatorio para los competidores
+for i in range(5):
+    a=[0]*10
+    matriz7.append(a)
+    for j in range(10):
+        matriz7[i][j] = randint(0,20)
+#Cabecera
+cad2="          "
+for i in range(10):
+    cad2+="\t"+comp7[i]
+cad2+="\n\t\t----------------------------------------------"
+print(cad2)
+for i in range(5):
+    cad=etapas7[i]+"|\t"
+    for j in range(10):
+        cad+=str(matriz7[i][j])+"\t"
+    print(cad)
+print("\n\t\t----------------------------------------------")
+tiempo7 = 100
+cadena7 = "Tiempo:\t\t"
+for j in range(10):
+        sumacolumna7 = 0
+        for i in range(5):
+                sumacolumna7 = sumacolumna7 + matriz7[i][j]
+        if sumacolumna7 < tiempo7:
+                tiempo7 = sumacolumna7
+                competidor7 = comp7[j]
+        cadena7+=str(sumacolumna7)+"\t"
 #----------------Matriz 8
+
+comp8=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
+etapas8=["Etapa 1: ","Etapa 2: ","Etapa 3: ","Etapa 4: ","Etapa 5: "]
+matriz8 = []
+#Generamos el tiempo aleatorio para los competidores
+for i in range(5):
+    a=[0]*10
+    matriz8.append(a)
+    for j in range(10):
+        matriz8[i][j] = randint(0,20)
+#Cabecera
+cad2="          "
+for i in range(10):
+    cad2+="\t"+comp8[i]
+cad2+="\n\t\t----------------------------------------------"
+print(cad2)
+for i in range(5):
+    cad=etapas8[i]+"|\t"
+    for j in range(10):
+        cad+=str(matriz8[i][j])+"\t"
+    print(cad)
+print("\n\t\t----------------------------------------------")
+tiempo8 = 100
+cadena8 = "Tiempo:\t\t"
+for j in range(10):
+        sumacolumna8 = 0
+        for i in range(5):
+                sumacolumna8 = sumacolumna8 + matriz8[i][j]
+        if sumacolumna8 < tiempo8:
+                tiempo8 = sumacolumna8
+                competidor8 = comp8[j]
+        cadena8+=str(sumacolumna8)+"\t"
 #----------------Matriz 9
+
+comp9=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
+etapas9=["Etapa 1: ","Etapa 2: ","Etapa 3: ","Etapa 4: ","Etapa 5: "]
+matriz9 = []
+#Generamos el tiempo aleatorio para los competidores
+for i in range(5):
+    a=[0]*10
+    matriz9.append(a)
+    for j in range(10):
+        matriz9[i][j] = randint(0,20)
+#Cabecera
+cad2="          "
+for i in range(10):
+    cad2+="\t"+comp9[i]
+cad2+="\n\t\t----------------------------------------------"
+print(cad2)
+for i in range(5):
+    cad=etapas9[i]+"|\t"
+    for j in range(10):
+        cad+=str(matriz9[i][j])+"\t"
+    print(cad)
+print("\n\t\t----------------------------------------------")
+tiempo9 = 100
+cadena9 = "Tiempo:\t\t"
+for j in range(10):
+        sumacolumna9 = 0
+        for i in range(5):
+                sumacolumna9 = sumacolumna9 + matriz9[i][j]
+        if sumacolumna9 < tiempo9:
+                tiempo9 = sumacolumna9
+                competidor9 = comp9[j]
+        cadena9+=str(sumacolumna9)+"\t"
 #----------------Matriz 10
+comp10=["Com 1","Com 2","Com 3","Com 4","Com 5","Com 6","Com 7","Com 8","Com 9","Com 10",]
+etapas10=["Etapa 1: ","Etapa 2: ","Etapa 3: ","Etapa 4: ","Etapa 5: "]
+matriz10 = []
+#Generamos el tiempo aleatorio para los competidores
+for i in range(5):
+    a=[0]*10
+    matriz10.append(a)
+    for j in range(10):
+        matriz10[i][j] = randint(0,20)
+#Cabecera
+cad2="          "
+for i in range(10):
+    cad2+="\t"+comp10[i]
+cad2+="\n\t\t----------------------------------------------"
+print(cad2)
+for i in range(5):
+    cad=etapas10[i]+"|\t"
+    for j in range(10):
+        cad+=str(matriz10[i][j])+"\t"
+    print(cad)
+print("\n\t\t----------------------------------------------")
+tiempo10 = 100
+cadena10 = "Tiempo:\t\t"
+for j in range(10):
+        sumacolumna10 = 0
+        for i in range(5):
+                sumacolumna10 = sumacolumna10 + matriz10[i][j]
+        if sumacolumna10 < tiempo10:
+                tiempo10 = sumacolumna10
+                competidor10 = comp10[j]
+        cadena10+=str(sumacolumna10)+"\t"
+print()
